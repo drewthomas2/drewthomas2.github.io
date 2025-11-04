@@ -1,0 +1,7 @@
+baseURL: https://drewthomas2.github.io/
+languageCode: en-us
+title: Drew Thomas
+theme: PaperMod
+caches:
+  images:
+    dir: :cacheDir/images
