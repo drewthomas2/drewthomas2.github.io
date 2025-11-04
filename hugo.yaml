@@ -5,3 +5,32 @@ theme: PaperMod
 caches:
   images:
     dir: :cacheDir/images
+
+menu:
+  main:
+    - name: Archives
+      url: archives
+      weight: 5
+
+params:
+    defaultTheme: auto
+    disableThemeToggle: true
+    ShowAllPagesInArchive: true
+    profileMode:
+        enabled: true
+        title: "Drew Thomas" # optional default will be site title
+        subtitle: "Test Development Engineer @ Abbott"
+        imageUrl: "images/headshot.jpg" # optional
+        imageWidth: 226 # custom size
+        imageHeight: 279 # custom size
+        buttons:
+          - name: CV
+            url: "posts/cv"
+
+    socialIcons:
+        - name: "Instagram"
+          url: "https://www.instagram.com/d.r.e.w_t/"
+        - name: "GitHub"
+          url: "https://github.com/drewthomas2"
+        - name: "LinkedIn"
+          url: "https://www.linkedin.com/in/drew-thomas-129b991b6/"
